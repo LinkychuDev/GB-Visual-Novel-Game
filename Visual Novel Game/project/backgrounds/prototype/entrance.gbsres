@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "c95ae60a-f99e-4cec-a561-5b58b088a3dd",
+  "name": "Prototype/entrance",
+  "symbol": "bg_prototype_entrance",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Prototype/entrance.png",
+  "tileColors": ""
+}

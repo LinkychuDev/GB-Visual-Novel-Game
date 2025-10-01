@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e88edd68-c831-4d97-b732-24836dad79e6",
+  "name": "Prototype/body",
+  "symbol": "bg_prototype_body",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Prototype/body.png",
+  "tileColors": ""
+}

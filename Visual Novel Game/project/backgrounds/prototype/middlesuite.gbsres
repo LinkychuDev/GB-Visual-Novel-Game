@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d001f0dc-1886-435f-8f90-ed678ec5736d",
+  "name": "Prototype/middleSuite",
+  "symbol": "bg_prototype_middlesuite",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Prototype/middleSuite.png",
+  "tileColors": ""
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "82a46443-107a-4c4b-8873-5ac5f0009234",
+  "name": "Prototype/lefthallway",
+  "symbol": "bg_prototype_lefthallway",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Prototype/lefthallway.png",
+  "tileColors": ""
+}

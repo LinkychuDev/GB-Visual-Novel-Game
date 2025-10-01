@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "7a5d753c-93af-4d01-ba80-2021d4f1efcd",
+  "name": "Prototype/parentsroom",
+  "symbol": "bg_prototype_parentsroom",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Prototype/parentsroom.png",
+  "tileColors": ""
+}

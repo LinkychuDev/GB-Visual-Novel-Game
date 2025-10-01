@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
-  "startX": 0,
-  "startY": 0,
+  "startSceneId": "c361aa49-455f-49d2-917c-f0fa41bff29d",
+  "startX": 7,
+  "startY": 2,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
   "startDirection": "right",
@@ -84,6 +84,37 @@
   "colorMode": "mixed",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
-  "scriptEventPresets": {},
+  "scriptEventPresets": {
+    "EVENT_TEXT": {
+      "3d5616be-b850-43c2-a23f-2cc37f0883dd": {
+        "id": "3d5616be-b850-43c2-a23f-2cc37f0883dd",
+        "name": "Preset 1",
+        "groups": [
+          "layout",
+          "behaviour",
+          "avatar",
+          "text"
+        ],
+        "args": {
+          "text": "",
+          "avatarId": "",
+          "position": "bottom",
+          "minHeight": 4,
+          "maxHeight": 7,
+          "textX": 1,
+          "textY": 1,
+          "textHeight": 5,
+          "clearPrevious": true,
+          "showFrame": "true",
+          "speedIn": -1,
+          "speedOut": -1,
+          "closeWhen": "key",
+          "closeButton": "a",
+          "closeDelayTime": 0.5,
+          "closeDelayFrames": 30
+        }
+      }
+    }
+  },
   "scriptEventDefaultPresets": {}
 }

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "a444dbda-291c-43f4-9d86-c0ef1de7602a",
+  "name": "Prototype/girlroom",
+  "symbol": "bg_prototype_girlroom",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Prototype/girlroom.png",
+  "tileColors": ""
+}
