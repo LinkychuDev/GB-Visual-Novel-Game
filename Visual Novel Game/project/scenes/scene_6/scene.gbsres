@@ -3,11 +3,11 @@
   "id": "966d415b-0a9d-4fc5-8f5f-75e6de9fbeb7",
   "_index": 5,
   "name": "Scene 6",
-  "backgroundId": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
+  "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "LOGO",
+  "type": "POINTNCLICK",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "00168+",
@@ -16,6 +16,13 @@
   "x": 480,
   "y": 336,
   "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "70fce9e8-f704-465b-940a-27ff5be662d5"
+    },
     {
       "command": "EVENT_TEXT",
       "args": {
@@ -40,7 +47,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": false
       },
       "id": "9d6fdfc4-49ab-45c8-a01b-be8f0a38a54d"
     },
@@ -49,7 +57,8 @@
       "args": {
         "variable": "L0",
         "trueText": "THE ITEM FRAME",
-        "falseText": "THE BANDAGE"
+        "falseText": "THE BANDAGE",
+        "__collapse": false
       },
       "id": "47139b03-14a3-426e-86e8-953f50549a48"
     },
@@ -67,7 +76,8 @@
             "value": 1
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -75,7 +85,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "HAHA, YOUR STATEMENTS DONT HOLD UP",
+                "HAHA, YOUR STATEMENTS \nDONT HOLD UP!",
                 "HOW IS IT EVEN \nPOSSIBLE FOR ME \nTO HAVE THE \nITEM FRAME",
                 "IF I WASN'T HERE",
                 "YOU'RE A HACK... ",
@@ -118,55 +128,57 @@
             "id": "be4da277-e46d-478f-a928-1d12ccb65211"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "FUCK...",
+                "THAT DOESN'T \nPROVE ANYTHING"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "14854b98-c719-40f4-916f-a288e93a23f4"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "up",
+              "fadeSpeed": 3
+            },
+            "id": "544c0f5f-c153-4b3a-be0d-e1e320a41609"
+          }
+        ]
       },
       "id": "c339444b-c17c-4282-be0e-86de74a6b7a6"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "FUCK...",
-          "THAT DOESN'T PROVE ANYTHING"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "14854b98-c719-40f4-916f-a288e93a23f4"
-    },
-    {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": 0
-        },
-        "direction": "up",
-        "fadeSpeed": 4
-      },
-      "id": "544c0f5f-c153-4b3a-be0d-e1e320a41609"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
 }
