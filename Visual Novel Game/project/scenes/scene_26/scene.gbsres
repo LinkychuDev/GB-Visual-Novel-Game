@@ -255,7 +255,7 @@
               "items": 3,
               "option1": "Calammine is on parole.",
               "option2": "The diary",
-              "option3": "",
+              "option3": "Your interview",
               "option4": "",
               "option5": "",
               "option6": "",
@@ -265,6 +265,181 @@
               "layout": "dialogue"
             },
             "id": "ccf2c989-b52e-4cff-85e4-ce05c6e5aba8"
+          },
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "L2",
+              "choices": 2,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "I confirmed with \nCalamine's parole officer.",
+                      "He couldn't have written\nthat letter and sent it.",
+                      "It would have had to \ncome from one of you \ntwo."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "2279653e-f0f6-4de1-b931-81337d198807"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "L5"
+                  },
+                  "id": "974c4951-8f48-44cb-8640-b12e3007bdf7"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "L3",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "71787a5f-1886-4794-90fd-98542dd43c15"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "You took out the pages\nof that diary",
+                      "What kind of a response\nis this?",
+                      "You're getting too lax \ndetective."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "916dd39a-2a55-432b-92e5-a7226f644730"
+                },
+                {
+                  "command": "EVENT_DEC_VALUE",
+                  "args": {
+                    "variable": "L5"
+                  },
+                  "id": "3240e478-533b-4384-ad25-7b16f32323af"
+                }
+              ],
+              "true2": [],
+              "true3": [],
+              "true4": [],
+              "true5": [],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "My interview with you\n",
+                      "isn't relevant here.",
+                      "Detective, you're \nslouching."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "9ce8bfb2-5228-437b-ba0b-ee263d9deb08"
+                },
+                {
+                  "command": "EVENT_DEC_VALUE",
+                  "args": {
+                    "variable": "L0"
+                  },
+                  "id": "e9419b47-fb50-4eca-8931-b2b42b0257ae"
+                }
+              ]
+            },
+            "id": "b6d2e55f-a979-462f-9205-10ede445731d"
           }
         ]
       },
@@ -277,7 +452,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "L3"
+            "value": "T1"
           },
           "valueB": {
             "type": "number",
@@ -323,7 +498,7 @@
             "command": "EVENT_MENU",
             "args": {
               "variable": "L4",
-              "items": 3,
+              "items": 2,
               "option1": "Your interviews",
               "option2": "The diary",
               "option3": "",
@@ -332,10 +507,125 @@
               "option6": "",
               "option7": "",
               "option8": "",
-              "cancelOnB": true,
+              "cancelOnB": false,
               "layout": "dialogue"
             },
             "id": "9a075004-fe31-4440-93e4-881d19739d9e"
+          },
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "L4",
+              "choices": 1,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "You said in your\ninterview about how you\nshared a common dream\nwith your sister. Being\nfree. ",
+                      "Your mother echoed that\nsame sentiment",
+                      "and you Jessica, said \nhow you wanted to swap\nplaces with Allison.",
+                      "You both really cared \nfor her, and wanted\nwhat's best for her."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "a14d0aa3-2919-4745-99be-bebab5d2ab85"
+                }
+              ],
+              "true1": [],
+              "true2": [],
+              "true3": [],
+              "true4": [],
+              "true5": [],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "What, how is that even\nrelevant here."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "6b755f6a-2366-419d-967f-03b12a522cc6"
+                }
+              ]
+            },
+            "id": "77a3aa49-046a-4013-a116-2b0e61810120"
           }
         ]
       },
