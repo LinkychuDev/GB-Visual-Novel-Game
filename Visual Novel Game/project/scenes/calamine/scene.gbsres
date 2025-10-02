@@ -2,23 +2,22 @@
   "_resourceType": "scene",
   "id": "a5f82d10-caf5-49b3-9374-5ed4029992d6",
   "_index": 19,
-  "name": "Calamine",
-  "backgroundId": "09fb2af9-9f60-4811-bde6-2ced8e9f3ed0",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [
-    null,
-    null,
-    "default-bg-1"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Calamine",
   "symbol": "scene_20",
   "x": 960,
   "y": 272,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "09fb2af9-9f60-4811-bde6-2ced8e9f3ed0",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "default-bg-1"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -100,5 +99,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": ""
 }

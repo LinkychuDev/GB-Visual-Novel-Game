@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "New folder/PArents Room.png",
-  "tileColors": "02168+"
+  "tileColors": "02168+",
+  "autoColor": false
 }

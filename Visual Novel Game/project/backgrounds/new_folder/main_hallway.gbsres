@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "New folder/main hallway.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

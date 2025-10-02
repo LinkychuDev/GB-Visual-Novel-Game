@@ -2,23 +2,22 @@
   "_resourceType": "scene",
   "id": "4664b6ca-8b5d-4791-8e2b-5a3193c5dcef",
   "_index": 20,
-  "name": "Augustine",
-  "backgroundId": "51d9af73-ce42-4e08-ad30-b755ba852239",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [
-    null,
-    null,
-    "default-bg-1"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Augustine",
   "symbol": "scene_21",
   "x": 1152,
   "y": 288,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "51d9af73-ce42-4e08-ad30-b755ba852239",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "default-bg-1"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -106,5 +105,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": ""
 }

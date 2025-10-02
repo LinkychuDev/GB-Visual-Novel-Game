@@ -2,23 +2,22 @@
   "_resourceType": "scene",
   "id": "493de113-a55d-4fc0-a01b-5bfa873698f7",
   "_index": 18,
-  "name": "Margret",
-  "backgroundId": "2456dea3-1d25-4dca-854e-adc5e1d78154",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [
-    null,
-    null,
-    "default-bg-1"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Margret",
   "symbol": "scene_19",
   "x": 1328,
   "y": 96,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "2456dea3-1d25-4dca-854e-adc5e1d78154",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "default-bg-1"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -97,5 +96,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": ""
 }

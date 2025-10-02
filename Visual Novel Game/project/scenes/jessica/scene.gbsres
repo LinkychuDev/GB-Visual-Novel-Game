@@ -2,23 +2,22 @@
   "_resourceType": "scene",
   "id": "6f8e9ce4-3ac0-4a06-8dcc-285e5323fbea",
   "_index": 21,
-  "name": "Jessica",
-  "backgroundId": "67d828c9-b109-4b58-a2b1-a4d70ba59782",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [
-    null,
-    null,
-    "default-bg-1"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Jessica",
   "symbol": "scene_22",
   "x": 1344,
   "y": 288,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "67d828c9-b109-4b58-a2b1-a4d70ba59782",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "default-bg-1"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -106,5 +105,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": ""
 }

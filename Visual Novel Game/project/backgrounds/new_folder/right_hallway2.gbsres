@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "New folder/Right Hallway2.png",
-  "tileColors": "04168+"
+  "tileColors": "04168+",
+  "autoColor": false
 }

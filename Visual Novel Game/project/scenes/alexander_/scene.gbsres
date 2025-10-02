@@ -2,23 +2,22 @@
   "_resourceType": "scene",
   "id": "5f440899-0058-471a-99fe-5891ef3ce2ce",
   "_index": 16,
-  "name": "Alexander ",
-  "backgroundId": "94378a04-c4b8-465c-a4a8-5f8e4aa551c1",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [
-    null,
-    null,
-    "default-bg-1"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Alexander ",
   "symbol": "scene_17",
   "x": 944,
   "y": 72,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "94378a04-c4b8-465c-a4a8-5f8e4aa551c1",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "default-bg-1"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -99,5 +98,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": ""
 }
