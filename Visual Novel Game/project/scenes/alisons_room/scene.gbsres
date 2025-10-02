@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "df2d0065-0c13-450a-ad04-a554aafd593f",
+  "_index": 11,
+  "name": "Alisons Room",
+  "backgroundId": "58eabc0e-a91e-48bd-9803-7ff19c35dcde",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 288,
+  "y": 264,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

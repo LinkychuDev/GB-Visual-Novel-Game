@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "2ea8ad93-1407-4c65-8bad-e5367f538359",
+  "name": "New folder/Left Hallway2",
+  "symbol": "bg_new_folder_left_hallway2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "New folder/Left Hallway2.png",
+  "tileColors": "07168+"
+}

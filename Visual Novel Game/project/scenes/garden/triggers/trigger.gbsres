@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "18f206b6-765f-41ad-bd2e-92e116566de6",
+  "name": "",
+  "prefabId": "",
+  "x": 8,
+  "y": 4,
+  "symbol": "trigger_14",
+  "prefabScriptOverrides": {},
+  "width": 5,
+  "height": 6,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "A statue of the Holland\nfamily"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8de1d620-4946-4a0b-9e40-364125bd5d88"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

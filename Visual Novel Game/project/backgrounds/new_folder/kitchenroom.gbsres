@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "c8354445-97a3-4a39-b016-680343bd20a3",
+  "name": "New folder/KitchenRoom",
+  "symbol": "bg_new_folder_kitchenroom",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "New folder/KitchenRoom.png",
+  "tileColors": "02168+"
+}

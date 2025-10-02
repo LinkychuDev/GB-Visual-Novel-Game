@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "9c757413-f6db-44c7-a175-924a38d08b65",
+  "name": "ProtoConverts/converted",
+  "symbol": "bg_protoconverts_converted",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ProtoConverts/converted.png",
+  "tileColors": "07168+"
+}

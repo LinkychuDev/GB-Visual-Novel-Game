@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f85d9b60-58e2-43d3-9b74-0c0e817e1de8",
+  "name": "Prototype 3/Right Hallway",
+  "symbol": "bg_prototype_3_right_hallwa",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Prototype 3/Right Hallway.png",
+  "tileColors": "04168+"
+}

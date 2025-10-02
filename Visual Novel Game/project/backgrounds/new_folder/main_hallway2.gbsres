@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "396b849c-9a72-457b-ad30-267f5086fb93",
+  "name": "New folder/main hallway2",
+  "symbol": "bg_new_folder_main_hallway2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "New folder/main hallway2.png",
+  "tileColors": "04168+"
+}

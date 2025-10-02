@@ -1,0 +1,110 @@
+{
+  "_resourceType": "scene",
+  "id": "4664b6ca-8b5d-4791-8e2b-5a3193c5dcef",
+  "_index": 20,
+  "name": "Augustine",
+  "backgroundId": "51d9af73-ce42-4e08-ad30-b755ba852239",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [
+    null,
+    null,
+    "default-bg-1"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_21",
+  "x": 1152,
+  "y": 288,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Rival family to the \nHollands.",
+          "Can't say I'm surprised \nto be a suspect.",
+          "If you want to know \nthe details.",
+          "I was attending the same\nbusiness meeting as\nAlexander himself. I \ncan't stand nothing more\nthan to see him lose.",
+          "But that girl, I know the\ntruth detective.",
+          "What do you know?",
+          "You are aware of what \nI sell?",
+          "I'm not sure what you\nsell sir.",
+          "I sell antique items. The\nfinest of the country.",
+          "I got a rare mannequin\ndoll, so delicate and \nlifelike. Even if you \nlooked at it under a \nmicroscope",
+          "You would probably \nmistake it for being \nhuman.",
+          "So there I was, 7 days\nago, after receiving the\nmannequin, until, a boy",
+          "Dressed in a ski mask,\nasked to purchase the\ngift from me, in billions.\nLike he was throwing\nall of his family's ",
+          "earnings away. Of course\nI accepted, nothing \nmakes me happier than\nto see a man's\ngeneration fall to down",
+          "due to reckless kids. \nAlthough I did catch\nthe receipt.",
+          "What?",
+          "figured you'd need it.\n",
+          "Detective."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "4f548a68-c933-4695-895e-a0ce3ee6bf76"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "3",
+        "flag1": false,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": true,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "da8d05bf-a461-4025-8de6-266ec039bcc6"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4e4248ff-2329-416d-aab0-dfa58227a7da",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "1963a6b3-242a-4043-8606-62a89b35b994"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "94378a04-c4b8-465c-a4a8-5f8e4aa551c1",
+  "name": "Character/alexander",
+  "symbol": "bg_character_alexander",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Character/alexander.png",
+  "tileColors": ""
+}

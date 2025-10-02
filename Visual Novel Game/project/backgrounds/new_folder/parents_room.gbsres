@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d531b994-15ed-40b6-a3f9-d550ee8c5495",
+  "name": "New folder/PArents Room",
+  "symbol": "bg_new_folder_parents_room",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "New folder/PArents Room.png",
+  "tileColors": "02168+"
+}

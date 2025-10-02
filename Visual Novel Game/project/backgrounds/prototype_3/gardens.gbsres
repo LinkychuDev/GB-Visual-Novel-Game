@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e788e9bf-cae4-4d4e-9684-05794931f52f",
+  "name": "Prototype 3/Gardens",
+  "symbol": "bg_prototype_3_gardens",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Prototype 3/Gardens.png",
+  "tileColors": "07168+"
+}

@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "8e892fe6-82b4-4e7e-8266-5e8799351a51",
+  "_index": 7,
+  "name": "Left Hallway",
+  "backgroundId": "2ea8ad93-1407-4c65-8bad-e5367f538359",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 88,
+  "y": 448,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

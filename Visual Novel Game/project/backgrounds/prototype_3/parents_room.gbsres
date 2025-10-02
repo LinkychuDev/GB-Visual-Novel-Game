@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "08ce04bf-ba97-44c4-9c62-47405e4a2649",
+  "name": "Prototype 3/PArents Room",
+  "symbol": "bg_prototype_3_parents_room",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Prototype 3/PArents Room.png",
+  "tileColors": "02168+"
+}

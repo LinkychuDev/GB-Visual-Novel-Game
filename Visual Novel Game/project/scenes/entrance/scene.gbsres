@@ -1,0 +1,63 @@
+{
+  "_resourceType": "scene",
+  "id": "aa526f3c-3ae2-48fb-a387-1472d997a7bc",
+  "_index": 4,
+  "name": "Entrance",
+  "backgroundId": "9c757413-f6db-44c7-a175-924a38d08b65",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 3,
+  "symbol": "scene_5",
+  "x": 288,
+  "y": 656,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "554c6d75-a9e9-48fb-a753-9602a96562a4",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "b2b253a8-279b-41bf-a4c5-f23b103be383"
+          }
+        ],
+        "false": []
+      },
+      "id": "040bbb6f-8201-4132-9508-6bdb5c72fae5"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

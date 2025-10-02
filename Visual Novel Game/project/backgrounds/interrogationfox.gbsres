@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b17216eb-8e48-48b1-b720-c54f99675f42",
+  "name": "InterrogationFox",
+  "symbol": "bg_interrogationfox",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "InterrogationFox.png",
+  "tileColors": ""
+}

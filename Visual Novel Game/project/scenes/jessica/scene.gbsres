@@ -1,0 +1,110 @@
+{
+  "_resourceType": "scene",
+  "id": "6f8e9ce4-3ac0-4a06-8dcc-285e5323fbea",
+  "_index": 21,
+  "name": "Jessica",
+  "backgroundId": "67d828c9-b109-4b58-a2b1-a4d70ba59782",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [
+    null,
+    null,
+    "default-bg-1"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_22",
+  "x": 1344,
+  "y": 288,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Where were you between\nmidnight and 8 am.",
+          "....",
+          "Where were you between \nmidnight and 8 am",
+          "....",
+          "\nMhmmm I see..",
+          "It seems like your\nfriend ratted you out",
+          "They said they wanted \nto bail",
+          "now they're getting a \nplea bargain.",
+          "They're about to give\nup everything you know\nand more that will \nincriminate you for\na really long time..",
+          "I have nothing to say",
+          "And I don't know the \ngirl",
+          "I have no idea why \ni am a suspect in this \ncase",
+          "because my father just\nso happens to be a \nrival family?",
+          "i hate living this life",
+          "Maybe whoever did that\nto that girl, deserves\npraise. I would trade\nmy spot for hers, so I \ndon't have to spend",
+          "another day being \npunished for being his\ndaughter.",
+          "You're a hair stylist \naren't you?",
+          "You do the hair of really\nfamous people.",
+          "Handy with hair pins."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4a1d8d30-59fd-41df-90fa-44e2eabe4a1e"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "3",
+        "flag1": false,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": true,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "c312de44-af4d-485a-b6de-429546146aaa"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4e4248ff-2329-416d-aab0-dfa58227a7da",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "06458de4-8184-4567-80c2-4cfdf1788405"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

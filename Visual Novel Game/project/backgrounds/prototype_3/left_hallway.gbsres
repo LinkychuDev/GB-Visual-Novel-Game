@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "08deb7c4-d492-4c97-a58a-e27f695ed8ae",
+  "name": "Prototype 3/Left Hallway",
+  "symbol": "bg_prototype_3_left_hallway",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Prototype 3/Left Hallway.png",
+  "tileColors": "07168+"
+}

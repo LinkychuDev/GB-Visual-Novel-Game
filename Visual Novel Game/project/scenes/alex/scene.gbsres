@@ -1,0 +1,105 @@
+{
+  "_resourceType": "scene",
+  "id": "819f9cd9-fec8-4d90-8e59-a9b253c7c4c1",
+  "_index": 17,
+  "name": "Alex",
+  "backgroundId": "69447c1e-95f1-40d6-b6bb-ee6fead59a31",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [
+    null,
+    null,
+    "default-bg-1"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_18",
+  "x": 1128,
+  "y": 96,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Where were you between\n12am and 8am today\n",
+          "I was at school? I have \nearly hour school at\nthose hours...",
+          "Doing what at those \nhours?",
+          "Enjoying practice. \nGetting away from home",
+          "It's tough living under\na roof like that",
+          "I'd do anything to\nescape it.",
+          "When did you last see \nyour sister?",
+          "The night before. Same\nas everyone else in\nmy family.",
+          "How close were you and\nyour sister?",
+          "Me and my sister are \npretty close",
+          "She tells me everything\nand I tell her everything\ntoo.",
+          "We both share a common\ndream.",
+          "I hope my sister is doing\nwell...",
+          "(Maybe he just doesn't\nunderstand the \ngravity of the situation)"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ade98b30-b831-4ce2-93c9-c72f57599b39"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "3",
+        "flag1": false,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": true,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "e9945b7f-5e1a-4c43-94df-555a305efc67"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4e4248ff-2329-416d-aab0-dfa58227a7da",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "9fc5dd28-3a16-43f5-b4cf-9c47ea476ce4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "26fbadaa-d8fe-4b5e-b35e-5f6504becc14",
+  "name": "gem",
+  "symbol": "bg_gem",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "gem.png",
+  "tileColors": "03168+"
+}

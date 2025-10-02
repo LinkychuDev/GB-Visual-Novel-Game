@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "9c2c4aac-0626-424c-9ed7-66a8ed769dd4",
+  "_index": 10,
+  "name": "Kitchen",
+  "backgroundId": "ce8dfc9e-d064-4e2d-809a-f8f4577bc367",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 680,
+  "y": 264,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

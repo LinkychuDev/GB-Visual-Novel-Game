@@ -1,0 +1,175 @@
+{
+  "_resourceType": "trigger",
+  "id": "678b10a6-e8ae-4066-8f89-c160e40bdb22",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 3,
+  "symbol": "trigger_31",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 11,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "An open bookshelf. Lots \nof books depicting\nhow to act like a royal."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2594d255-4782-42e7-9a3e-f45287c585cc"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "The library is pretty \nstacked.",
+          "Let me pick one to read",
+          "\"The rules of a royal\"",
+          "\"Rule number 1. \nStatus and Reputation\nare everything.",
+          "\"Rule number 12. Always\nhave pictures of \nyourself and your family\nnear the entrance.\n2 should suffice."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "24c584b1-aec0-43cf-ad9c-fce8d53d09a0"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "\"Rule number 42. No \noutside interaction\nwith commoners,\""
+        ],
+        "__section": "text",
+        "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "67132bd2-2f31-4ad6-a109-740dec4b343e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "\"Rule number 45. \nKnowledge is power\"",
+          "\"Rule number 53. A\nroyal must his library\nexhibit all of the \nfinest literature he can \ngather!\"",
+          "Even a commoners \nliterature...."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6a743616-ea1a-4b41-88ef-815e231042d7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Mhmmm...",
+          "That's odd",
+          "Where are all the\n\"commoner books\"?",
+          ""
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8e3faaf3-beb7-4d56-a6ce-a781ddfa7068"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "They're missing??"
+        ],
+        "__section": "text",
+        "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "493668c5-d8e2-4922-9cf3-e52b0b0f1337"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

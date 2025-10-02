@@ -1,0 +1,99 @@
+{
+  "_resourceType": "trigger",
+  "id": "887b0b18-250c-4101-b5e8-2f3fe83b625e",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 2,
+  "symbol": "trigger_33",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 6,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Looks like a list of\nroutines to carry out \ndaily.",
+          "9:30am - take a shower",
+          "9:50 - Put on some \nfresh clothes for the\nday.",
+          "10:00 - Eat ready-made\nbreakfast prepared by\nthe chef and butler.",
+          "10:30 - Make way to\nschool and enter class.",
+          "6:00 - Come back from \nschool and come home",
+          "6:30 - Help Aline with\nstudies",
+          "7:30 - Eat dinner \nprepared by the chef \nand the butler",
+          "8:00 - Family meetings.",
+          "10:30 - Bed time."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f0603f62-3621-411c-9131-d11ae7f89c49"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Mhmmm what an \ninteresting schedule,\nIf everyone has family \nmeetings, for everyone\nto be asleep....",
+          "The earliest would have \nto be around midnight. \nConsidering REM sleep \ndoesn't kick in until \non average 90 mins in.\n"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "dfaf6ffd-6d72-4ea6-9bb6-18e87c16b061"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "1",
+        "flag1": false,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "67f3bb3c-ea4c-48d5-a5db-720dfcf0aa34"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

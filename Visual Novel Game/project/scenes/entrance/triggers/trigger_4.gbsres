@@ -1,0 +1,75 @@
+{
+  "_resourceType": "trigger",
+  "id": "6a5c5086-c884-4e9b-9b72-ba272bd622ea",
+  "name": "",
+  "prefabId": "",
+  "x": 9,
+  "y": 4,
+  "symbol": "trigger_9",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 7,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b6ca6b9d-21c1-4ad0-82e0-002dfefa7a50",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "da51b7bb-89fd-482f-84c4-90eba2bcb3a4"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You need to investigate\nThe body first...\nin the pantry.."
+              ],
+              "__section": "layout",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "820d0bd9-e2e9-4f81-ad56-fd9752f21b98"
+          }
+        ]
+      },
+      "id": "e05e8742-ba96-477c-a94d-dafe034d0578"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

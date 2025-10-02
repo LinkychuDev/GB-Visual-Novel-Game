@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "2ca063f5-de2d-4d8b-ad66-ea5dc94ada04",
+  "name": "Character/fox",
+  "symbol": "bg_character_fox",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Character/fox.png",
+  "tileColors": "04168+"
+}

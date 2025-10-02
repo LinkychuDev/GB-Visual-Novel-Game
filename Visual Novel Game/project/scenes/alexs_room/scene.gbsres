@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "e684d4df-fb67-4c2d-a4d2-4621dfd63aae",
+  "_index": 12,
+  "name": "Alex's Room",
+  "backgroundId": "443cb816-d9c8-469d-b595-a91097d65a17",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_13",
+  "x": 96,
+  "y": 256,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

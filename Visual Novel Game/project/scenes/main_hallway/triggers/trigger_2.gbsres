@@ -1,0 +1,101 @@
+{
+  "_resourceType": "trigger",
+  "id": "ec86e8ae-1b77-4096-83e0-687f94ef34f0",
+  "name": "",
+  "prefabId": "",
+  "x": 11,
+  "y": 4,
+  "symbol": "trigger_17",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 8,
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "1",
+        "flag": 6,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Huh... Why is this room\nlocked?",
+                "I can use one of the\nhairpins as a lock\nto open this,,"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c48ea1ce-89db-4bd4-8a28-9df338cfea62"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "df2d0065-0c13-450a-ad04-a554aafd593f",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "5911a38d-1f38-465e-a5d8-2f4bddd197fd"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Huh,,,",
+                "Why is this room locked?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "663d510e-e79f-464e-b58a-79012d62aabc"
+          }
+        ]
+      },
+      "id": "cf80b17f-3dc7-4fee-b14b-010df26f64f5"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

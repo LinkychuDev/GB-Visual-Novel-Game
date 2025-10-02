@@ -1,0 +1,35 @@
+{
+  "_resourceType": "actor",
+  "id": "2deebd72-f215-4604-a7fc-1966659fa265",
+  "name": "Player",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d91da619-eea7-4195-a2c1-955c3cfac880",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 3,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_1",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "1a886655-4fee-47f2-9d22-415a9956bdc8"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 0,
+  "y": 13,
+  "_index": 1
+}

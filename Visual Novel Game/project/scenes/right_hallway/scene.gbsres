@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "f91e4434-c9f6-434b-8776-d7fc44d1d1bc",
+  "_index": 8,
+  "name": "Right Hallway",
+  "backgroundId": "f5f256b4-f6a1-4529-8141-137a27debdff",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 488,
+  "y": 456,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "51d9af73-ce42-4e08-ad30-b755ba852239",
+  "name": "Character/augustine",
+  "symbol": "bg_character_augustine",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Character/augustine.png",
+  "tileColors": ""
+}

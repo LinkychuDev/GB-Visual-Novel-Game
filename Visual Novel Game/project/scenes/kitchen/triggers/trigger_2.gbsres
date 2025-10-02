@@ -1,0 +1,70 @@
+{
+  "_resourceType": "trigger",
+  "id": "95b39707-00ba-4778-a525-253f89c7fa46",
+  "name": "",
+  "prefabId": "",
+  "x": 12,
+  "y": 9,
+  "symbol": "trigger_32",
+  "prefabScriptOverrides": {},
+  "width": 7,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "A lot of foods are in the\ncabinet.",
+          "It feels far too\noverstuffed. Feels like \nits about to explode",
+          "Pasta, Rice, Flour. \nCups, plates...."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "21c7974a-662a-4362-8a74-b3c1832e3a24"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This has to be the \nitems from the pantry.",
+          "But how is it possible\nTo move items from\nthe pantry, by \nyourself and hide a \nbody there.",
+          "Without making a \nsound?"
+        ],
+        "__section": "text",
+        "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8bb472dc-d0b5-45fa-8e91-a843a52f8f53"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

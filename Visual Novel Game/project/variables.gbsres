@@ -3,23 +3,43 @@
   "variables": [
     {
       "id": "0",
-      "name": "Quest1",
-      "symbol": ""
+      "name": "BodyChecked",
+      "symbol": "var_bodychecked_0"
     },
     {
       "id": "1",
-      "name": "Quest2",
-      "symbol": ""
+      "name": "Evidence",
+      "symbol": "var_evidence",
+      "flags": {
+        "flag1": "Alison's Body in Pantry",
+        "flag3": "Allison wasn't murdered in the pantry",
+        "flag2": "Suspect has to be Wealthy or produce knives",
+        "flag4": "Suspect escaped from inside the house",
+        "flag7": "HairPin",
+        "flag6": "Threat Letter from inside the house",
+        "flag5": "Time of attack between Midnight and 8 am.",
+        "flag8": "Removed Pages from Diary",
+        "flag9": "Flashlight"
+      }
     },
     {
       "id": "2",
-      "name": "Quest3",
-      "symbol": ""
+      "name": "AllEvidence",
+      "symbol": "var_allevidence"
     },
     {
       "id": "3",
-      "name": "Quest4",
-      "symbol": ""
+      "name": "Interview",
+      "symbol": "var_interview",
+      "flags": {
+        "flag1": "SelectedOne",
+        "flag2": "Calamine",
+        "flag3": "Alex Sr",
+        "flag4": "Margret",
+        "flag5": "Alex Jr",
+        "flag6": "Augustine",
+        "flag7": "Jessica"
+      }
     },
     {
       "id": "4",
@@ -150,6 +170,69 @@
       "id": "5fa52cd0-57cd-414c-8b93-5601c6e9636f__L0",
       "name": "Defeated",
       "symbol": ""
+    },
+    {
+      "id": "c08fdc7e-1d4a-47b3-88c3-aa6cfcfe83a8__L0",
+      "name": "Alison's Body",
+      "symbol": "var_alison_s_body"
+    },
+    {
+      "id": "031deb97-342a-4256-8796-a98da4f9bca1__L0",
+      "name": "Check the glass?",
+      "symbol": "var_check_the_glass_"
+    },
+    {
+      "id": "c08fdc7e-1d4a-47b3-88c3-aa6cfcfe83a8__L1",
+      "name": "Use Flashlght",
+      "symbol": "var_use_flashlght"
+    },
+    {
+      "id": "554c6d75-a9e9-48fb-a753-9602a96562a4__L0",
+      "name": "Event 1",
+      "symbol": "var_event_0"
+    },
+    {
+      "id": "554c6d75-a9e9-48fb-a753-9602a96562a4__L1",
+      "name": "DP",
+      "symbol": "var_dp"
+    },
+    {
+      "id": "4e4248ff-2329-416d-aab0-dfa58227a7da__L1",
+      "name": "DP",
+      "symbol": "var_dp_0"
+    },
+    {
+      "id": "4e4248ff-2329-416d-aab0-dfa58227a7da__L3",
+      "name": "Interrogates",
+      "symbol": "var_interrogates"
+    },
+    {
+      "id": "4e4248ff-2329-416d-aab0-dfa58227a7da__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "e041be97-bbd7-4f9d-9a93-47201f6e0502__L5",
+      "name": "DP",
+      "symbol": "var_dp_1"
+    },
+    {
+      "id": "e041be97-bbd7-4f9d-9a93-47201f6e0502__L1",
+      "name": "Local Battle",
+      "symbol": "var_local_battle",
+      "flags": {
+        "flag1": "First Point"
+      }
+    },
+    {
+      "id": "e041be97-bbd7-4f9d-9a93-47201f6e0502__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "e041be97-bbd7-4f9d-9a93-47201f6e0502__L3",
+      "name": "Battle Part 2",
+      "symbol": "var_battle_part_2"
     }
   ]
 }

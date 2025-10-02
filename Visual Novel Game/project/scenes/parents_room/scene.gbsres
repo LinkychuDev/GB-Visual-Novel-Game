@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "2e14b7c5-5396-43ea-8086-9a63e186afe0",
+  "_index": 13,
+  "name": "Parents Room",
+  "backgroundId": "2bc39b54-601b-4a94-918d-a867fbe1e706",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_14",
+  "x": 488,
+  "y": 264,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

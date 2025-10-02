@@ -1,0 +1,103 @@
+{
+  "_resourceType": "scene",
+  "id": "5f440899-0058-471a-99fe-5891ef3ce2ce",
+  "_index": 16,
+  "name": "Alexander ",
+  "backgroundId": "94378a04-c4b8-465c-a4a8-5f8e4aa551c1",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [
+    null,
+    null,
+    "default-bg-1"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_17",
+  "x": 944,
+  "y": 72,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "A: Gordon.",
+          "This is no time to \ninterrogate me .",
+          "You saw the bastard\nCalamine",
+          "The letters he wrote,",
+          "This is an open and shut\ncase.",
+          "He killed my daughter.",
+          "Prosecute him \nimmediately.",
+          "I just need your \nlocation between Midnight\nand 8 am",
+          "I was sleeping at my \nhouse and was awoken\nby a loud thud at\naround 7am.",
+          "I rushed down, and saw\nmy daughter, dead\nGordon.",
+          "I called you, because\nI wanted you to find\nthe Son of a bitch who\ndid this to her.",
+          "That's my testimony."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "85aaf532-461c-4233-ad3d-782d29973b84"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "3",
+        "flag1": false,
+        "flag2": false,
+        "flag3": true,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "739b4df9-7ba9-461b-8452-957a8b61e267"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4e4248ff-2329-416d-aab0-dfa58227a7da",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "31f6c726-91e6-4c1d-82be-8952d3f1992b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

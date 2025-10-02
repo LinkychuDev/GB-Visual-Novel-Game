@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "c637372d-0d08-4173-80a0-6fdd140566a2",
+  "name": "Prototype 3/KitchenRoom",
+  "symbol": "bg_prototype_3_kitchenroom",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Prototype 3/KitchenRoom.png",
+  "tileColors": "02168+"
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "67d828c9-b109-4b58-a2b1-a4d70ba59782",
+  "name": "Character/Jessica",
+  "symbol": "bg_character_jessica",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Character/Jessica.png",
+  "tileColors": ""
+}

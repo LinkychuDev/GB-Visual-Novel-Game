@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "cba2d868-7b69-484c-ac06-c1971dc2947a",
+  "name": "Prototype 3/main hallway",
+  "symbol": "bg_prototype_3_main_hallway",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Prototype 3/main hallway.png",
+  "tileColors": "02168+"
+}

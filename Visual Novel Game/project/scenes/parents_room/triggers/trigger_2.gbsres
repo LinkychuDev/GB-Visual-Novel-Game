@@ -1,0 +1,92 @@
+{
+  "_resourceType": "trigger",
+  "id": "72e2476d-5ba3-4ac7-821d-c73f6f146e1d",
+  "name": "",
+  "prefabId": "",
+  "x": 12,
+  "y": 9,
+  "symbol": "trigger_29",
+  "prefabScriptOverrides": {},
+  "width": 3,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "What's this?",
+          "It's a threat letter from Calamine",
+          "I can't make out what's \nin it from the tears \ncovering the page.",
+          "All I can read is..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9217e2ae-f9f3-4349-8506-a1b7ec671a88"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "...I w_l_ _o__ f_r y__r\nfa____y Ale____e_."
+        ],
+        "__section": "text",
+        "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4738f36a-d41f-42e8-b496-a26727b86377"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "1",
+        "flag1": false,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": true,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "2f9c01cc-ab76-4fb8-aeb4-808046813d53"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

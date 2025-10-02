@@ -1,0 +1,46 @@
+{
+  "_resourceType": "trigger",
+  "id": "defc7f46-edb8-424a-80e8-6fa2caabb21e",
+  "name": "",
+  "prefabId": "",
+  "x": 13,
+  "y": 3,
+  "symbol": "trigger_7",
+  "prefabScriptOverrides": {},
+  "width": 3,
+  "height": 5,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This is a picture of",
+          "The Holland Family",
+          "Alexander (Center)",
+          "Margret (Left)",
+          "Alex Jr. (Far Left)",
+          "Allison (Far Right)."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c8c48889-d0a4-4f79-9c64-84190195b45d"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

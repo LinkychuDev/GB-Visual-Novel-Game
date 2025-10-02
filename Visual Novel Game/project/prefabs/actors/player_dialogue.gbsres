@@ -1,0 +1,27 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "7fc3218b-8e68-4f68-a057-a39ffb570892",
+  "name": "Player DIalogue",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d91da619-eea7-4195-a2c1-955c3cfac880",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "c3a008c9-ca5b-45ab-8813-e5c5f5569022"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

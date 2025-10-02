@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "af07cb8e-53f1-4bd5-801d-3eb8792a9df0",
+  "name": "New folder/entrances",
+  "symbol": "bg_new_folder_entrances",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "New folder/entrances.png",
+  "autoColor": false,
+  "tileColors": "02168+"
+}
